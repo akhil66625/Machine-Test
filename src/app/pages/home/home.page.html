@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+
+    <ion-button class="mb" (click)="logout()"slot="end">logout</ion-button>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen] ="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Demo App</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+<ion-button (click)="saveLocation()"> 
+  Update Location
+</ion-button>
+</div>
+
+</ion-content>

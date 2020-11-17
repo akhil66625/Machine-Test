@@ -1,0 +1,8 @@
+{
+  "name": "mechine",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
